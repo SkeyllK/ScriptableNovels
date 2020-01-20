@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05bf1fa8ae3c82418ae6c0c32b80712, type: 3}
+  m_Name: Story0
+  m_EditorClassIdentifier: 
+  StoryScript:
+  - SceneText: How to use this script.
+    _textRole: 0
+    _model: 0
+    ModelNumber: 0
+    Speaker: 
+    _modelPos: 0
+    _field: 0
+    fieldNumber: 0
+  - SceneText: Powered by Unity
+    _textRole: 1
+    _model: 0
+    ModelNumber: 0
+    Speaker: 
+    _modelPos: 0
+    _field: 0
+    fieldNumber: 0
+  - SceneText: This is really easy to use.
+    _textRole: 2
+    _model: 0
+    ModelNumber: 0
+    Speaker: 
+    _modelPos: 1
+    _field: 0
+    fieldNumber: 0
+  - SceneText: Moreover, easy to change.
+    _textRole: 3
+    _model: 1
+    ModelNumber: 0
+    Speaker: Dogger
+    _modelPos: 0
+    _field: 2
+    fieldNumber: 0
+  - SceneText: If being in demand, may add other features.
+    _textRole: 3
+    _model: 2
+    ModelNumber: 0
+    Speaker: Dolphin
+    _modelPos: 2
+    _field: 1
+    fieldNumber: 0
