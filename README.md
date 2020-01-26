@@ -1,17 +1,19 @@
 # ScriptableNovels
-Simple visual novel game tool for Unity.
+Simple visual novel game sample for Unity.
 Can display a character and background images and text by ScriptableObject. 
+I hope you can customize this sample easily!
 
 The function for now.
-* Create plot by ScriptableObject (Can set data on Unity inspecter).
+* Create plots by ScriptableObject (Can set data on Unity inspecter).
 * Display one character image on three position (left, center and right of screen).
 * Display text by the four way (Title, conversation, quote, discription).
 
-I may add other function such a select command for branch story or a simple action game in novel, but at now this is just for displaying your text and picture.
+I may add other function such a select command for a branch story or a simple action game in novel, but at now this is just for displaying a text and picture.
+
 
 ## Instructions
-1. Import this codes or StoryData.cs and StoryManager.cs in Assets/Script/*.
-2. Create stroy plot from Create/Story/Createplot of Project menu to Resources/StoryPlot/*. (Can change this path if fixing load path in StoryManager.cs)
+1. Import this project or StoryData.cs and StoryManager.cs in Assets/Script/*.
+2. Create stroy plot from Create/Story/Createplot of Project menu into Resources/StoryPlot/*. (Can change this path if fixing load path in StoryManager.cs)
 <img src="https://user-images.githubusercontent.com/50002207/73133925-d6a7ec00-4072-11ea-9898-4dc804841e6b.png">
 
 3. Make asset's name StoryN(int numbe) and then set story data. (Get this file from Resources by int number)
