@@ -11,10 +11,12 @@ I may add other function such a select command for branch story or a simple acti
 
 ## Instructions
 1. Import this codes or StoryData.cs and StoryManager.cs in Assets/Script/*.
-1. Create stroy plot from Create/Story/Createplot of Project menu to Resources/StoryPlot/*. (Can change this path if fixing load path in StoryManager.cs)
+2. Create stroy plot from Create/Story/Createplot of Project menu to Resources/StoryPlot/*. (Can change this path if fixing load path in StoryManager.cs)
 <img src="https://user-images.githubusercontent.com/50002207/73133925-d6a7ec00-4072-11ea-9898-4dc804841e6b.png">
-1. Make asset's name StoryN(int numbe) and then set story data. (Get this file from Resources by int number)
+
+3. Make asset's name StoryN(int numbe) and then set story data. (Get this file from Resources by int number)
 <img src="https://user-images.githubusercontent.com/50002207/73133970-db20d480-4073-11ea-8452-7166b0e3d497.png">
+
  * Size: The length of this story
  * Scene text: Displayed text
  * Text role: Change the position and size of text
@@ -27,4 +29,12 @@ I may add other function such a select command for branch story or a simple acti
  
 *1 Need to set some name in StoryData.cs in after use this script.
 <img src="https://user-images.githubusercontent.com/50002207/73134092-972ecf00-4075-11ea-82b0-03adca62f8ac.png">
+
 *2 If a project need not change the image type (Ex. angry face, joy face), remove this part from StoryData.cs.
+
+4. Import a image into Resource/StoryImage/*.
+
+5. Attach to a object in hierarchy and set some ui.
+6. Add event trriger to the field image and regsiter LoadNextPart of StoryManager.cs to PointerUP event.
+
+<img src="https://user-images.githubusercontent.com/50002207/73134180-f3462300-4076-11ea-92bc-d7f4a1f736bf.png">
