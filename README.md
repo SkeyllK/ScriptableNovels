@@ -28,6 +28,7 @@ I may add other function such a select command for branch story or a simple acti
  * Field Number: Change the picture of field (*2)
  
 *1 Need to set some name in StoryData.cs in after use this script.
+
 <img src="https://user-images.githubusercontent.com/50002207/73134092-972ecf00-4075-11ea-82b0-03adca62f8ac.png">
 
 *2 If a project need not change the image type (Ex. angry face, joy face), remove this part from StoryData.cs.
@@ -38,3 +39,6 @@ I may add other function such a select command for branch story or a simple acti
 6. Add event trriger to the field image and regsiter LoadNextPart of StoryManager.cs to PointerUP event.
 
 <img src="https://user-images.githubusercontent.com/50002207/73134180-f3462300-4076-11ea-92bc-d7f4a1f736bf.png">
+
+
+Use http://www.yutorilife.com/ 's image in this project.
